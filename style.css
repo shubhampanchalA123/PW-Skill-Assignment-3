@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* --------------------- */
+/* -------body--------- */
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(
+      rgba(236, 59, 47, 0.7),
+      rgba(11, 4, 30, 0.7),
+      #0000008a
+    ),
+    url('./img/body.png');
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+/* -header---- */
+
+
+.header-hero {
+  height: 10vh;
+  width: 100vw;
+  background-color: black;
+}
+
+.nav-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  margin: 10px 45px;
+  position: relative;
+  cursor: pointer;
+  border-right: 2px solid gray;
+  padding-right: 80px;
+}
+
+.nav-hero ul {
+  display: flex;
+  position: relative;
+  right: 250px;
+}
+
+.nav-hero ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.nav-hero ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  transition: all 0.5s;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+nav ul li a:hover {
+  background-color: #720ad3;
+  color: white;
+}
+
+.button-div .button-hero {
+  color: white;
+  padding: 10px 20px;
+  background-color: rgb(226, 41, 72);
+  border-radius: 6px;
+  position: relative;
+  right: 20px;
+}
+
+
+/*  ---------main------------ */
+
+
+main {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+}
+main h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  font-weight: 900;
+}
+
+main p {
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  margin: 10px;
+}
+
+main .button-hero {
+  padding: 10px 20px;
+  margin-top: 20px;
+  color: white;
+  background-color: rgb(173, 0, 81);
+  border-radius: 6px;
+  position: relative;
+  left: 200px;
+  text-decoration: none;
+}
+
+.button-hero:hover {
+  border: 1px solid red;
+  background-color: red;
+  transition: 1s;
+  cursor: pointer;
+}
